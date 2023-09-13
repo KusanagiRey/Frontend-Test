@@ -1,0 +1,509 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .container {
+        max-width: 320px;
+    }
+    /* Header */
+    .header-menu {
+        margin: 0px;
+        height: 65px;
+    }
+    header {
+        position: sticky;
+        background-color: #FFF;
+    }
+    .logo {
+        margin-left: 20px;
+    }
+    .nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        display: none;
+        padding: 0;
+        margin-top: 65px;
+        margin-left: 0;
+        padding-top: 35px;
+        height: 385px;
+        width: 100%;
+        flex-direction: column;
+        overflow-y: auto;
+        border: 0px;
+        background-color: #FFF;
+    }
+    .nav-item {
+        flex-direction: column;
+        margin: 0px;
+        margin-bottom: 15.5px;
+        font-size: 22px;
+    }
+    .register-button {
+        padding: 6px 23px;
+        margin: 0;
+        margin-top: 9px;
+        font-size: 22px;
+    }
+    .icons {
+        padding: 0;
+        margin: 0;
+        margin-top: 35px;
+        margin-left: 3px;
+    }
+    .icon-item {
+        margin-left: 6px;
+    }
+    .burger {
+        display: flex;
+        margin-left: 110px;
+    }
+
+
+    /* Section #1 */
+
+    .section-header {
+        flex-direction: column;
+    }
+    .sh-left,
+    .sh-right,
+    .intro,
+    .sh-button,
+    .section-title,
+    .sh-text,
+    .arrow {
+        margin: 0;
+    }
+    .header-date, .header-h {
+        display: none;
+    }
+    .intro img[src] {
+        content: url('img/iphone/text2.svg');
+    }
+    .intro {
+        margin-top: 59px;
+        margin-left: 19px;
+    }
+    .sh-button {
+        padding: 26px 15px;
+        margin-left: 18px;
+        margin-top: 56px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 140%;
+        letter-spacing: 4.4px;
+    }
+    .sh-right {
+        display: none;
+    }
+    .pic {
+        display: block;
+        width: 237px;
+        height: 215px;
+        margin-top: 59px;
+        margin-left: 40px;
+    }
+    .section-title {
+        width: 261px;
+        margin-top: 49px;
+        margin-left: 19px;
+        font-size: 19px;
+        line-height: 138%;
+        letter-spacing: 0.8px;
+    }
+    .sh-text {
+        width: 250px;
+        margin-top: 39px;
+        margin-left: 19px;
+        padding-bottom: 129px;
+        letter-spacing: 0px;
+        line-height: 139%;
+    }
+    .arrow {
+        display: none;
+    }
+
+
+    /* Section #2 */
+
+    .abs-pic-sec {
+        position: absolute;
+        top: -95px;
+        left: 59px;
+        display: block;
+        width: 196px;
+        height: 334px;
+    }    
+    .section-second-left,
+    .section-second-text {
+        padding: 0;
+        margin: 0;
+    }
+    .section-second-h {
+        width: 250px;
+        height: 168px;
+        margin-top: 282px;
+        margin-left: 20px;
+        font-size: 40px;
+        line-height: 100%;
+    }
+    .section-second-text {
+        margin-top: 40px;
+        margin-left: 23px;
+        width: 276px;
+    }
+    .section-second-right {
+        display: none;
+    }
+    .section-second {
+        padding-bottom: 77px;
+    }
+
+
+    /* Section #3 */
+
+    .third-pic {
+        display: block;
+        width: 194px;
+        height: 287px;
+        margin-top: 59px;
+        margin-left: 63px;
+    }    
+    .section-third-left {
+        margin: 0;
+    }
+    .section-third-h {
+        margin-top: 37px;
+        margin-left: 20px;
+        font-size: 39px;
+        letter-spacing: 0.5px;
+    }
+    .section-third-items {
+        margin-top: 72px;
+        margin-left: 22px;
+        padding-bottom: 89px;
+        width: 273px;
+        row-gap: 73.5px;
+    }
+    .section-third-right {
+        display: none;
+    }
+
+
+    /* Section #4 */
+
+    .wrapper {
+        margin: 0;
+    }
+    .slider-h {
+        margin-top: 17px;
+        margin-left: 20px;
+        font-weight: 300;
+        font-size: 40px;
+        color: #0A2756;
+        line-height: 140%;
+    }
+    .swiper-speecker {
+        padding: 0;
+    }
+    .swiper-wrapper {
+        padding: 0;
+    }
+    .swiper-slide {
+        margin-top: 49px;
+    }
+    .swiper-slide,
+    .swiper-slide-active {
+        padding: 0;
+    }
+    .slide-item {
+        margin-left: 20px;
+        width: 279px;
+        height: 277px;
+    }
+    .swiper-slide img {
+        width: 279px;
+        height: 277px;
+        margin: 0;
+    }
+    .swiper-pagination-bullet {
+        margin-right: 8px !important;
+    }
+    .swiper-pagination {
+        bottom: 113px !important;
+        margin-left: 4px !important;
+    }
+    .swiper-button-prev {
+        visibility: hidden;
+    }
+    .swiper-button-next {
+        visibility: hidden;
+    }
+    .notes {
+        bottom: 223px;
+    }
+    .note {
+        width: 279px;
+        height: 81px;
+    }
+    .note-name {
+        margin-top: 15px;
+        margin-left: 22px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 160%;
+    }
+    .note-text {
+        margin-top: 1px;
+        font-size: 13px;
+    }
+    .section-third {
+        padding-bottom: 56px;
+    }
+
+
+    /* Section #5 */
+
+    .abs-pic-third {
+        position: absolute;
+        left: 76px;
+        top: -62px;
+        display: block;
+        width: 169px;
+        height: 247px;
+    }
+    .fourth {
+        display: flex;
+    }
+    .fourth-right {
+        margin: 0;
+    }
+    .fourth-h {
+        padding-top: 248px;
+        margin-left: 20px;
+        font-size: 40px;
+        letter-spacing: 0.4px;
+    }
+    .fourth-text {
+        width: 276px;
+        margin-top: 67px;
+        margin-left: 23px;
+        padding-bottom: 85px;
+    }
+    .fourth-left {
+        display: none;
+    }    
+
+
+    /* Section #6 */
+
+    .section-fourth {
+        padding-bottom: 0;
+    }
+    .wrapper-second {
+        margin: 0;
+    }
+    .slider-h-second {
+        margin-top: 59px;
+        margin-left: 21px;
+        font-weight: 300;
+        font-size: 40px;
+        color: #0A2756;
+        line-height: 140%;
+        letter-spacing: 0.4px;
+    }
+    .swiper-second {
+        padding: 0;
+        margin-top: 58px;
+        margin-left: 20px;
+        max-width: 280px;
+        height: 435px;
+    }
+    .swiper-slide-second {
+        padding: 0;
+    }
+    .slide {
+        max-width: 280px;
+        max-height: 280px;
+    }
+    .swiper-slide-second {
+        margin: 0;
+        height: 280px !important;
+        width: 280px !important;
+    }
+    .slide img {
+        object-fit: cover;
+        object-position: center;
+        width: 280px;
+        height: 280px;
+        filter: none;
+    }
+    .swiper-button-prev-unique {
+        visibility: hidden;
+    }
+    .swiper-button-next-unique {
+        visibility: hidden;
+    }
+
+
+    /* Footer */
+        /* Part 1 */
+    footer {
+        padding-bottom: 163px;
+        background-color: #0A2756;
+    }
+    .abs-pic {
+        position: absolute;
+        left: 78px;
+        top: -40px;
+        width: 163px;
+        height: 163px;
+    }
+    .partners-h {
+        padding-top: 194px;
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    .partners-img {
+        margin-left: 20px;
+        margin-top: 73px;
+        content: url("img/iphone/Vector.svg");
+    }
+
+        /* Part 2 */
+    .map {
+        margin-top: 110px;
+        margin-left: 20px;
+    }
+    .map-h {
+        font-size: 40px;
+    }
+    
+    #map {
+        margin-top: 59px;
+        width: 100%;
+        height: 511px;
+    }
+    .balloon {
+        width: 250px;
+        padding: 26px 27px;
+        color: #0A2756;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 140%;
+    }
+    .balloon-H {
+        font-weight: 700;
+    }
+
+        /* Part 3 */
+    .feedback {
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+    .feedback p {
+        font-size: 40px;
+    }
+    .feedback-form {
+        display: block;
+        margin-top: 75px;
+    }
+    .feedback-form input, textarea {
+        display: block;
+        width: 280px;
+        height: 50px;
+        margin-bottom: 26px;
+    }
+    .feedback button { 
+        margin-top: 107px;
+        margin-left: 20px;
+        letter-spacing: 4.4px;
+    }
+
+    .contacts {
+        display: block;
+        margin-left: 20px;
+        max-width: 320px;
+        max-height: 100px;
+        margin-top: 100px;
+    }
+    .contacts p {
+        margin-left: -20px;
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 135%;
+    }
+    .cont-phone {
+        padding-bottom: 19px;
+        font-size: 21px !important;
+        letter-spacing: 0.48px;
+    }
+    .contacts a {
+        margin-left: -20px;
+    }
+
+
+    /* Всплывающее окно регистрации */
+
+    .modal-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: baseline;
+        overflow-y: auto;
+        opacity: 0;
+        background-color: #FFF;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+    }
+    .modal-container.show {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .modal {
+        margin-top: 40px;
+        width: 320px;
+        height: 700px;
+    }
+
+    .modal-h, 
+    .modal-text,
+    .modal form, 
+    .modal form input {
+        margin: 0;
+    }
+    .modal-h {
+        margin-top: 60px;
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    .modal-text {
+        margin-left: 20px;
+        margin-top: 28px;
+        width: 250px;
+        font-size: 18px;
+    }
+
+    .modal form {
+        margin-top: 20px;
+        max-width: 300px;
+    }
+    .modal form input {
+        margin-left: 20px;
+        width: 280px;
+    }
+    /* Chekbox */
+    .modal-checkbox {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    /* Кнопка регистрации */
+    .modal button {
+        margin-top: 20px; 
+        margin-left: 20px;
+        width: 280px;
+    }
+}
